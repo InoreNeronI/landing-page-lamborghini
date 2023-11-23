@@ -1,2 +1,0 @@
-((o,a)=>{let e=document.getElementById(o),t=document.getElementById(a);e&&t&&e.addEventListener("click",()=>{t.classList.toggle("show")})})("nav__toggle","nav-menu"),gsap.from(".home__title",{opacity:-1,duration:1.5,delay:1}),gsap.from(".home__img",{opacity:0,duration:1,delay:1,x:100}),gsap.from(".home__information",{opacity:0,duration:1,delay:1.2,y:-30}),gsap.from(".box__medium",{opacity:0,duration:1.5,delay:1.3,y:-50}),gsap.from(".box__small",{opacity:-1,duration:1.5,delay:1.4,y:-50});
-//# sourceMappingURL=index.95e36e6f.js.map
