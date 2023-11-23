@@ -1,0 +1,40 @@
+{
+  "name": "landing-page-lamborghini",
+  "version": "1.0.0",
+  "description": "Responsive Lamborghini car landing page using HTML, CSS & JavaScript",
+  "homepage": "https://github.com/InoreNeronI/landing-page-lamborghini",
+  "scripts": {
+    "start": "parcel serve assets/html/*.html --open",
+    "build": "parcel build assets/html/*.html --public-url /landing-page-lamborghini",
+    "prestart": "prettier . --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InoreNeronI/landing-page-lamborghini.git"
+  },
+  "keywords": [],
+  "author": "Martin Mozos <martinmozos@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/InoreNeronI/landing-page-lamborghini/issues"
+  },
+  "dependencies": {
+    "gsap": "^3.12.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.3",
+    "parcel": "^2.10.3",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "prettier": "3.1.0"
+  },
+  "alias": {
+    "gsap": {
+      "global": "gsap"
+    }
+  },
+  "targets": {
+    "default": {
+      "context": "browser"
+    }
+  }
+}
